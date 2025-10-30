@@ -14,7 +14,8 @@ import streamlit as st
 
 import config
 from utils import load_model, infer_uploaded_image, infer_uploaded_video, infer_uploaded_webcam
-
+st.title("🚗 Real-Time Vehicle Detection using YOLOv8")
+st.markdown("Detects vehicles and pedestrians from live video or webcam feed in real time.")
 # setting page layout
 st.set_page_config(
     page_title="Interactive Interface for YOLOv8",
