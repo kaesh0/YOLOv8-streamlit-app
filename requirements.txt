@@ -1,6 +1,16 @@
+# Streamlit for the web interface
 streamlit==1.22.0
+
+# YOLOv8 from Ultralytics
 ultralytics==8.0.98
 
-opencv-python==4.7.0.72
-# opencv-python-headless==4.7.0.72
+# OpenCV for image/video processing
+opencv-python-headless==4.7.0.72  # safer for servers and cloud
+# (If running locally, you can comment the above line and uncomment below)
+# opencv-python==4.7.0.72
+
+# Pillow for image handling
 Pillow==9.5.0
+
+# Optional: for temporary files and structured paths
+pathlib
